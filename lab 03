@@ -1,0 +1,22 @@
+#include<iostream>
+#include<string>
+using namespace std;
+int main()
+{
+    int a,b;
+    string x,y;
+    cout << "please enter your input";
+    cin >> x;
+    for(a=0,b=2;a<3,b>=0;a++,b--){
+        y[b]=x[a];
+        if(x[0]==y[0]||x[2]==y[2]){
+            cout << "palindrome";
+        }
+
+        else {
+            cout << "not palindrome";
+        }
+    }
+
+
+}
