@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int i,j=0,s;
+    cin>>s;
+    int a[s],x[2*s];
+    for(i=0;i<s;i++){
+        cin>>a[i];
+    }
+    for(i=0;i<s;i++){
+        x[i]=a[i];
+    }
+    for(i=s;i<2*s;i++){
+        x[i]=a[j];
+        j++;
+    }
+    for(i=0;i<2*s;i++){
+        cout<<x[i];
+    }
+    return 0;
+}
